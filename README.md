@@ -25,4 +25,3 @@ Based on https://drivendata.github.io/cookiecutter-data-science/
 ```
 =======
 # Link-Prediction
->>>>>>> d37055578aacad39d264b4656d1804ab7d047672
