@@ -3,4 +3,4 @@
 .gitkeep
 
 
-/node_information/*
+data/raw/node_information/*
