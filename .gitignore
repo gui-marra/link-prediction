@@ -2,5 +2,5 @@
 /config-private.yml
 .gitkeep
 
-/data
-/results
+
+/node_information/*
