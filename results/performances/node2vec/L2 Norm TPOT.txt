@@ -1,0 +1,7 @@
+Generation 1 - Current best internal CV score: 0.9140876125363525
+Generation 2 - Current best internal CV score: 0.9141005386520179
+Generation 3 - Current best internal CV score: 0.9141005386520179
+Generation 4 - Current best internal CV score: 0.9141005386520179
+Generation 5 - Current best internal CV score: 0.9141005386520179
+Best pipeline: GradientBoostingClassifier(input_matrix, learning_rate=0.1, max_depth=6, max_features=0.15000000000000002, min_samples_leaf=8, min_samples_split=20, n_estimators=100, subsample=0.35000000000000003)
+0.9008776687978516
