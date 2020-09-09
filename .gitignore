@@ -4,3 +4,5 @@
 
 
 data/raw/node_information/*
+data/processed/node2vec/X_train_complete_embedding.csv
+data/intermediate/node2vec/X_train_n2v_complete_embedding.csv

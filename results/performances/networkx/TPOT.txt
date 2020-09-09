@@ -1,0 +1,7 @@
+Generation 1 - Current best internal CV score: 0.9128630172876795
+Generation 2 - Current best internal CV score: 0.9129639695276915
+Generation 3 - Current best internal CV score: 0.9129639695276915
+Generation 4 - Current best internal CV score: 0.9129711627941726
+Generation 5 - Current best internal CV score: 0.9129711627941726
+Best pipeline: RandomForestClassifier(DecisionTreeClassifier(input_matrix, criterion=gini, max_depth=4, min_samples_leaf=14, min_samples_split=14), bootstrap=True, criterion=gini, max_features=0.35000000000000003, min_samples_leaf=10, min_samples_split=20, n_estimators=100)
+0.9001236138232501

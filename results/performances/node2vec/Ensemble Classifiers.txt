@@ -1,0 +1,44 @@
+Summary for classifiers:
+AdaBoostClassifier
+Train scores: 
+f1-score: 0.912	Accuracy: 0.891	Precision: 0.915	Recall: 0.909	ROC-AUC: 0.885
+Test scores: 
+f1-score: 0.899	Accuracy: 0.876	Precision: 0.913	Recall: 0.886	ROC-AUC: 0.872
+
+**********************************************************************
+BaggingClassifier
+Train scores: 
+f1-score: 0.99	Accuracy: 0.987	Precision: 0.995	Recall: 0.985	ROC-AUC: 0.988
+Test scores: 
+f1-score: 0.878	Accuracy: 0.85	Precision: 0.891	Recall: 0.867	ROC-AUC: 0.845
+
+**********************************************************************
+ExtraTreesClassifier
+Train scores: 
+f1-score: 1.0	Accuracy: 1.0	Precision: 1.0	Recall: 1.0	ROC-AUC: 1.0
+Test scores: 
+f1-score: 0.883	Accuracy: 0.853	Precision: 0.882	Recall: 0.883	ROC-AUC: 0.843
+
+**********************************************************************
+GradientBoostClassifier
+Train scores: 
+f1-score: 0.914	Accuracy: 0.893	Precision: 0.917	Recall: 0.911	ROC-AUC: 0.887
+Test scores: 
+f1-score: 0.901	Accuracy: 0.878	Precision: 0.911	Recall: 0.891	ROC-AUC: 0.873
+
+**********************************************************************
+DecisionTreeClassifier
+Train scores: 
+f1-score: 1.0	Accuracy: 1.0	Precision: 1.0	Recall: 1.0	ROC-AUC: 1.0
+Test scores: 
+f1-score: 0.859	Accuracy: 0.824	Precision: 0.865	Recall: 0.853	ROC-AUC: 0.815
+
+**********************************************************************
+RandomForestClassifier
+Train scores: 
+f1-score: 1.0	Accuracy: 1.0	Precision: 1.0	Recall: 1.0	ROC-AUC: 1.0
+Test scores: 
+f1-score: 0.878	Accuracy: 0.846	Precision: 0.871	Recall: 0.885	ROC-AUC: 0.833
+
+**********************************************************************
+End
