@@ -1,0 +1,83 @@
+1) performance over the training set: 0.9294674934951919
+performance over the test set: 0.9162382610995987
+
+              precision    recall  f1-score   support
+
+         0.0       0.86      0.86      0.86     34008
+         1.0       0.92      0.92      0.92     56752
+
+    accuracy                           0.90     90760
+   macro avg       0.89      0.89      0.89     90760
+weighted avg       0.90      0.90      0.90     90760
+
+
+2) {'max_depth': 5, 'min_child_weight': 3} CV_Score: 0.928843559431475
+performance over the training set: 0.9293891498422955
+performance over the test set: 0.9162273200148114
+
+              precision    recall  f1-score   support
+
+         0.0       0.86      0.86      0.86     34008
+         1.0       0.92      0.92      0.92     56752
+
+    accuracy                           0.90     90760
+   macro avg       0.89      0.89      0.89     90760
+weighted avg       0.90      0.90      0.90     90760
+
+
+3) {'gamma': 0.2} CV_Score: 0.9288690568874887
+performance over the training set: 0.9293891498422955
+performance over the test set: 0.9162273200148114
+
+              precision    recall  f1-score   support
+
+         0.0       0.86      0.86      0.86     34008
+         1.0       0.92      0.92      0.92     56752
+
+    accuracy                           0.90     90760
+   macro avg       0.89      0.89      0.89     90760
+weighted avg       0.90      0.90      0.90     90760
+
+
+4) {'colsample_bytree': 0.9, 'subsample': 0.8} CV_Score: 0.9289013050922379
+performance over the training set: 0.9296568605946814
+performance over the test set: 0.9163690239966135
+
+              precision    recall  f1-score   support
+
+         0.0       0.86      0.86      0.86     34008
+         1.0       0.92      0.92      0.92     56752
+
+    accuracy                           0.90     90760
+   macro avg       0.89      0.89      0.89     90760
+weighted avg       0.90      0.90      0.90     90760
+
+
+5) {'reg_alpha': 0.1, 'reg_lambda': 0.5} CV_Score: 0.9289578437709275
+{'reg_alpha': 0.1, 'reg_lambda': 0.5} CV_Score: 0.9289578437709275
+performance over the training set: 0.929553927803851
+performance over the test set: 0.916507183363172
+
+              precision    recall  f1-score   support
+
+         0.0       0.86      0.86      0.86     34008
+         1.0       0.92      0.92      0.92     56752
+
+    accuracy                           0.90     90760
+   macro avg       0.89      0.89      0.89     90760
+weighted avg       0.90      0.90      0.90     90760
+
+
+n_estimators = 10 000
+6) {'learning_rate': 0.02} CV_Score: 0.9288932137561988
+performance over the training set: 0.9298683867119049
+performance over the test set: 0.9164189373957994
+
+              precision    recall  f1-score   support
+
+         0.0       0.86      0.86      0.86     34008
+         1.0       0.92      0.92      0.92     56752
+
+    accuracy                           0.90     90760
+   macro avg       0.89      0.89      0.89     90760
+weighted avg       0.90      0.90      0.90     90760

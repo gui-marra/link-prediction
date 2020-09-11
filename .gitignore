@@ -4,7 +4,8 @@
 
 
 data/raw/node_information/*
+data/raw/node_information.zip
 data/processed/node2vec/X_train_complete_embedding.csv
 data/intermediate/node2vec/X_train_complete_embedding.csv
-data/intermediate/doc2vec/
-
+data/intermediate/doc2vec/*
+results/models/tf-idf_matrix.npz
