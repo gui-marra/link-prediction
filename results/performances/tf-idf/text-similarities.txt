@@ -68,4 +68,15 @@ performance over the test set: 0.9325793977364234
 weighted avg       0.92      0.92      0.92     90760
 
 
-6) 
+6) {'learning_rate': 0.04} CV_Score: 0.9433572198701112
+performance over the training set: 0.9671749851737373
+performance over the test set: 0.9349446657813192
+
+              precision    recall  f1-score   support
+
+         0.0       0.89      0.90      0.89     34008
+         1.0       0.94      0.93      0.93     56752
+
+    accuracy                           0.92     90760
+   macro avg       0.91      0.92      0.91     90760
+weighted avg       0.92      0.92      0.92     90760
