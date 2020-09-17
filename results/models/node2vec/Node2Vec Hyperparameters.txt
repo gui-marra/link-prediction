@@ -1,4 +1,0 @@
-# emb1 model 
-
-dimensions=20, walk_length=16, num_walks=100
-window=4, min_count=1
