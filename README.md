@@ -15,13 +15,12 @@ Data Node Text information at: https://drive.google.com/file/d/1KWwJkwbffjjRIzpM
 
 #### 1.1 Graph Features
 
+Given two nodes in a graph it is possible to calculate some coefficients that are correlated with the probability of these being connected. One of these is the Jaccard Coefficient, which measures the ratio of the number of neighbors in common over the total number of neighbors. All definitions can be found in the [networkx library]{https://networkx.github.io/documentation/stable/reference/algorithms/link_prediction.html} reference.
+
 `jaccard_coefficient`: [1]
-
-`resource_allocation_index`: [2]
-
 `adamic_adar_index`: [1]
-
 `preferential_attachment`: [1]
+`resource_allocation_index`: [2]
 
 **Node2Vec**: [3]
 
@@ -69,6 +68,9 @@ The evaluations were made in the following order:
 4. results with the text features doc2vec. 
 
 
+## 4. Conclusion
+
+
 
 ## References
 
@@ -101,3 +103,4 @@ Learning And Applications (ICMLA). pp. 659–666. IEEE (2019). https://arxiv.org
 [12] Natekin, Alexey & Knoll, Alois. (2013). Gradient Boosting Machines, A Tutorial. Frontiers in neurorobotics. 7. 21. 10.3389/fnbot.2013.00021. https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3885826/pdf/fnbot-07
 
 [13] Chen, Tianqi and Guestrin, Carlos. "XGBoost: A Scalable Tree Boosting System.." Paper presented at the meeting of the KDD, 2016. https://arxiv.org/pdf/1603.02754.pdf
+
