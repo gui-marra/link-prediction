@@ -11,6 +11,7 @@ Data Node Text information at: https://drive.google.com/file/d/1KWwJkwbffjjRIzpM
 
 
 
+
 ## 1. Feature Generation
 
 #### 1.1 Graph Features
@@ -21,27 +22,26 @@ Given two nodes in a graph it is possible to calculate some coefficients that ar
 
 `resource_allocation_index`: [2]
 
-**Node2Vec**: [3]
+**Node2Vec**: node2vec is an algorithm to generate vector representations of nodes on a graph. The node2vec framework learns low-dimensional representations for nodes in a graph through the use of random walks [14] through a graph starting at a target node. [3]
 
 
 #### 1.2 Text Features 
 
-**TF-IDF**: [4] [5]
+**TF-IDF**: TF-IDF is a statistical measure that evaluates how relevant a word is to a document in a collection of documents. This is done by multiplying two metrics: how many times a word appears in a document, and the inverse document frequency of the word across a set of documents. [4] [5]
 
-**Doc2Vec**: [6]
-
+**Doc2Vec**: Heavily based on Word2Vec, this is an unsupervised manner to obtain a small dimension embedding of each document. [6]
 
 
 ## 2. Classification Model
 
-#### 2.1 Ensemble Classifiers
+#### 2.1 Ensemble Classifiers 
+Ensemble methods are meta-algorithms that combine several machine learning techniques into one predictive model in order to decrease variance (bagging), bias (boosting), or improve predictions (stacking). For example using multiple `DecisionTrees`[7] to form a Random Forest. Methods used in this challenge: 
 
-**DecisionTreeClassifier**: [7]
-**RandomForestClassifier**: [8]
-**BaggingClassifier**: [9]
-**ExtraTreesClassifier**: [10]
-**AdaBoostClassifier**: [11]
-**GradientBoostClassifier**: [12]
+`RandomForestClassifier` [8],
+`BaggingClassifier` [9],
+`ExtraTreesClassifier` [10],
+`AdaBoostClassifier` [11],
+`GradientBoostClassifier` [12]
 
 
 #### 2.2 TPOT
@@ -49,8 +49,7 @@ TPOT is a Python Automated Machine Learning tool that optimizes machine learning
 
 
 #### 2.3 XGBoost
-[13]
-
+XGBoost stands for Extreme Gradient Boosting [13]; it is a specific implementation of the Gradient Boosting method which uses more accurate approximations to find the best tree model. One of the main differences is while regular gradient boosting uses the loss function of our base model (e.g. decision tree) as a proxy for minimizing the error of the overall model, XGBoost uses the 2nd order derivative as an approximation, and applies regularization (L1 & L2), which improves model generalization.
 
 
 
@@ -65,9 +64,6 @@ The evaluations were made in the following order:
 2. With the increment of graph features using node2vec embedding and the same classification models. Here we notice that the final score was not increased by these features, regardless of the classifier. 
 3. With the in addition of textual features using tf-idf and XGBoost classification model. We chose this classifier because of its good performance and training speed using GPU, which is essential given the size of the dataset of this problem. These modifications led the f1-score to approximately 93.4% in the test set and 92.7% in the final score.
 4. results with the text features doc2vec. 
-
-
-## 4. Conclusion
 
 
 
@@ -103,3 +99,4 @@ Learning And Applications (ICMLA). pp. 659–666. IEEE (2019). https://arxiv.org
 
 [13] Chen, Tianqi and Guestrin, Carlos. "XGBoost: A Scalable Tree Boosting System.." Paper presented at the meeting of the KDD, 2016. https://arxiv.org/pdf/1603.02754.pdf
 
+[14] Spielman, Daniel A. (2018) "Random Walks on Graphs" Yale Class https://www.cs.yale.edu/homes/spielman/561/lect10-18.pdf 
