@@ -37,8 +37,8 @@ Given two nodes in a graph it is possible to calculate some coefficients that ar
 Ensemble methods are meta-algorithms that combine several machine learning techniques into one predictive model in order to decrease variance (bagging), bias (boosting), or improve predictions (stacking). For example using multiple `DecisionTrees`[7] to form a Random Forest. Methods used in this challenge: 
 
 `RandomForestClassifier` [8],
-`BaggingClassifier` [9],
-`ExtraTreesClassifier` [10],
+`ExtraTreesClassifier` [9],
+`BaggingClassifier` [10],
 `AdaBoostClassifier` [11],
 `GradientBoostClassifier` [12]
 
@@ -86,9 +86,10 @@ Learning And Applications (ICMLA). pp. 659–666. IEEE (2019). https://arxiv.org
 
 [8] Breiman, Leo. "Random Forests." Machine Learning 45 , no. 1 (2001): 5-32. https://www.stat.berkeley.edu/users/breiman/randomforest2001.pdf
 
-[9] Kotsiantis, Sotiris & Tsekouras, George & Pintelas, P.. (2005). Bagging Model Trees for Classification Problems.. 328-337. https://www.researchgate.net/publication/221565417_Bagging_Model_Trees_for_Classification_Problems
 
-[10] Geurts, Pierre, Ernst, Damien and Wehenkel, Louis. "Extremely randomized trees.." Mach. Learn. 63 , no. 1 (2006): 3-42. https://jasonphang.com/files/extratrees.pdf 
+[9] Geurts, Pierre, Ernst, Damien and Wehenkel, Louis. "Extremely randomized trees.." Mach. Learn. 63 , no. 1 (2006): 3-42. https://jasonphang.com/files/extratrees.pdf 
+
+[10] Kotsiantis, Sotiris & Tsekouras, George & Pintelas, P.. (2005). Bagging Model Trees for Classification Problems.. 328-337. https://www.researchgate.net/publication/221565417_Bagging_Model_Trees_for_Classification_Problems
 
 [11] Schapire, Robert. (2013). Explaining AdaBoost. 10.1007/978-3-642-41136-6_5. http://rob.schapire.net/papers/explaining-adaboost.pdf
 
