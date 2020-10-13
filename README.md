@@ -29,7 +29,7 @@ Given two nodes in a graph it is possible to calculate some coefficients that ar
 
 **TF-IDF**: TF-IDF is a statistical measure that evaluates how relevant a word is to a document in a collection of documents. This is done by multiplying two metrics: how many times a word appears in a document, and the inverse document frequency of the word across a set of documents. [4] [5]
 
-**Doc2Vec**: Heavily based on Word2Vec, this is an unsupervised manner to obtain a small dimension embedding of each document. [6]
+**Doc2Vec**: Heavily based on Word2Vec, this is an unsupervised manner to obtain a fixed dimension embedding of each document. [6]
 
 
 ## 2. Classification Model
@@ -49,7 +49,7 @@ TPOT is a Python Automated Machine Learning tool that optimizes machine learning
 
 
 #### 2.3 XGBoost
-XGBoost stands for Extreme Gradient Boosting [13]; it is a specific implementation of the Gradient Boosting method which uses more accurate approximations to find the best tree model. One of the main differences is while regular gradient boosting uses the loss function of our base model (e.g. decision tree) as a proxy for minimizing the error of the overall model, XGBoost uses the 2nd order derivative as an approximation, and applies regularization (L1 & L2), which improves model generalization.
+`XGBoost`[13] stands for Extreme Gradient Boosting; it is a specific implementation of the Gradient Boosting method which uses more accurate approximations to find the best tree model. One of the main differences is while regular gradient boosting uses the loss function of our base model (e.g. decision tree) as a proxy for minimizing the error of the overall model, XGBoost uses the 2nd order derivative as an approximation, and applies regularization (L1 & L2), which improves model generalization.
 
 
 
