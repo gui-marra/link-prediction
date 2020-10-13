@@ -17,9 +17,8 @@ Data Node Text information at: https://drive.google.com/file/d/1KWwJkwbffjjRIzpM
 
 Given two nodes in a graph it is possible to calculate some coefficients that are correlated with the probability of these being connected. One of these is the Jaccard Coefficient, which measures the ratio of the number of neighbors in common over the total number of neighbors. All definitions can be found in the [networkx library](https://networkx.github.io/documentation/stable/reference/algorithms/link_prediction.html) reference.
 
-`jaccard_coefficient`: [1]
-`adamic_adar_index`: [1]
-`preferential_attachment`: [1]
+`jaccard_coefficient`,`adamic_adar_index`,`preferential_attachment`: [1]
+
 `resource_allocation_index`: [2]
 
 **Node2Vec**: [3]
