@@ -29,7 +29,6 @@ Given two nodes in a graph it is possible to calculate some coefficients that ar
 
 **TF-IDF**: TF-IDF is a statistical measure that evaluates how relevant a word is to a document in a collection of documents. This is done by multiplying two metrics: how many times a word appears in a document, and the inverse document frequency of the word across a set of documents. [4] [5]
 
-**Doc2Vec**: Heavily based on Word2Vec, this is an unsupervised manner to obtain a fixed dimension embedding of each document. [6]
 
 
 ## 2. Classification Model
@@ -63,7 +62,6 @@ The evaluations were made in the following order:
 1. Using only the networkx features with several classification models (ensemble classifiers and TPOT autoML tool). Here we realize that results are better with the non-scaled features. The f1-score was approximately 90% in test set and 88% in submission set (final score). 
 2. With the increment of graph features using node2vec embedding and the same classification models. Here we notice that the final score was not increased by these features, regardless of the classifier. 
 3. With the in addition of textual features using tf-idf and XGBoost classification model. We chose this classifier because of its good performance and training speed using GPU, which is essential given the size of the dataset of this problem. These modifications led the f1-score to approximately 93.4% in the test set and 92.7% in the final score.
-4. results with the text features doc2vec. 
 
 
 
