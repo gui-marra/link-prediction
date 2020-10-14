@@ -20,12 +20,10 @@ Data Node Text information at: https://drive.google.com/file/d/1KWwJkwbffjjRIzpM
 
 Given two nodes in a graph it is possible to calculate some coefficients that are correlated with the probability of these being connected. One of these is the Jaccard Coefficient, which measures the ratio of the number of neighbors in common over the total number of neighbors. All definitions can be found in the [networkx library](https://networkx.github.io/documentation/stable/reference/algorithms/link_prediction.html) reference.
 
-<img src="https://github.com/gui-marra/link-prediction/blob/master/data/images/Strategy.PNG" width="600">
-
+<img src="https://github.com/gui-marra/link-prediction/blob/master/data/images/Networkx.PNG" width="600">
 
 **Node2Vec**: node2vec is an algorithm to generate vector representations of nodes on a graph. The node2vec framework learns low-dimensional representations for nodes in a graph through the use of random walks [14] through a graph starting at a target node. [3]
 
-<img src="https://github.com/gui-marra/link-prediction/blob/master/data/images/Networkx.PNG" width="600">
 
 #### 1.2 Text Features 
 
